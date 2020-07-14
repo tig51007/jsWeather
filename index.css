@@ -1,0 +1,66 @@
+body{
+  background-color: #2c3e50;
+  text-align:center;
+  
+}
+.js-clock{
+  background-color: white;
+  margin: 0 auto;
+  width:200px;
+  border-radius: 20px;
+}
+
+.form{
+  display:none;  
+  margin: 0 auto;
+}
+.greetings{
+  display: none;
+  background-color: white;
+  margin: 0 auto;
+  width:200px;
+  border-radius: 20px;
+}
+.showing{
+  display:block;
+  margin: 0 auto;
+}
+.js-toDoForm{
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.js-toDoList{
+  background-color: white;
+  border-radius: 20px;
+  
+  width:200px;
+  margin: 0 auto;
+}
+
+.js-weather{
+  font-weight: bold;
+  font-size: 20px;
+  margin:  auto;
+  background-color: white;
+  width:200px;
+  border-radius: 20px;
+  
+  
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+  }to{
+    opacity:1;
+  }
+}
+.bgImage{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index:-1;
+  animation: fadeIn 0.5s linear;
+}
